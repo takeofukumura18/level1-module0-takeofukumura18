@@ -75,6 +75,7 @@ public class PhotoQuiz {
                }
                
                quizWindow.remove(holder1);
+               JOptionPane.showMessageDialog(null, "Your Done!");
 	}
 
 	private static Component createImage(String imageUrl) throws MalformedURLException {
